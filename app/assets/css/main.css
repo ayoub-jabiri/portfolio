@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 /* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -43,4 +48,10 @@ body {
     padding: 1rem;
     background-color: #ff9800;
     border-radius: 0.375rem;
+}
+.blue-color {
+    color: #2196f3;
+}
+.black-color {
+    color: #131718;
 }
