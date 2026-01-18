@@ -3,5 +3,6 @@
         <LandingSection />
         <AboutSection />
         <ServicesSection />
+        <SkillsSection />
     </div>
 </template>

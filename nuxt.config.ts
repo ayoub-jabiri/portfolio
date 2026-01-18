@@ -13,5 +13,15 @@ export default defineNuxtConfig({
             pathPrefix: false,
         },
     ],
+    app: {
+        head: {
+            link: [
+                {
+                    rel: "stylesheet",
+                    href: "https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css",
+                },
+            ],
+        },
+    },
     css: ["./app/assets/css/main.css"],
 });
