@@ -4,5 +4,6 @@
         <AboutSection />
         <ServicesSection />
         <SkillsSection />
+        <PortfolioSection />
     </div>
 </template>

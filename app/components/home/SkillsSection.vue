@@ -27,71 +27,71 @@ const title = "Skills",
 
 const skills = [
     {
-        icon: "/imgs/html5.png",
+        icon: "/imgs/skills/html5.png",
         title: "html",
     },
     {
-        icon: "/imgs/css3.png",
+        icon: "/imgs/skills/css3.png",
         title: "css",
     },
     {
-        icon: "/imgs/javascript.png",
+        icon: "/imgs/skills/javascript.png",
         title: "javascript",
     },
     {
-        icon: "/imgs/sass.png",
+        icon: "/imgs/skills/sass.png",
         title: "sass",
     },
     {
-        icon: "/imgs/pug-js.png",
+        icon: "/imgs/skills/pug-js.png",
         title: "pug",
     },
     {
-        icon: "/imgs/bootstrap.png",
+        icon: "/imgs/skills/bootstrap.png",
         title: "bootstrap",
     },
     {
-        icon: "/imgs/tailwindcss.png",
+        icon: "/imgs/skills/tailwindcss.png",
         title: "tailwindcss",
     },
     {
-        icon: "/imgs/gulp-js.png",
+        icon: "/imgs/skills/gulp-js.png",
         title: "gulp js",
     },
     {
-        icon: "/imgs/jest.png",
+        icon: "/imgs/skills/jest.png",
         title: "jest",
     },
     {
-        icon: "/imgs/git.png",
+        icon: "/imgs/skills/git.png",
         title: "git",
     },
     {
-        icon: "/imgs/github.png",
+        icon: "/imgs/skills/github.png",
         title: "github",
     },
     {
-        icon: "/imgs/vue-js.png",
+        icon: "/imgs/skills/vue-js.png",
         title: "vue js",
     },
     {
-        icon: "/imgs/pinia.png",
+        icon: "/imgs/skills/pinia.png",
         title: "pinia",
     },
     {
-        icon: "/imgs/vuetify.png",
+        icon: "/imgs/skills/vuetify.png",
         title: "vuetify",
     },
     {
-        icon: "/imgs/nuxt-js.png",
+        icon: "/imgs/skills/nuxt-js.png",
         title: "nuxt js",
     },
     {
-        icon: "/imgs/typescript.png",
+        icon: "/imgs/skills/typescript.png",
         title: "typescript",
     },
     {
-        icon: "/imgs/figma.png",
+        icon: "/imgs/skills/figma.png",
         title: "figma",
     },
 ];

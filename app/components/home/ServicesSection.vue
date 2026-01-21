@@ -1,5 +1,6 @@
 <template>
-    <section class="py-15 bg-[#f8f8f8]" id="services">
+    <section class="py-15" id="services">
+        <!-- bg-[#f8f8f8] -->
         <div class="container">
             <SectionHead :title="title" :desc="description" />
             <div class="services grid grid-cols-12 items-stretch gap-5">
