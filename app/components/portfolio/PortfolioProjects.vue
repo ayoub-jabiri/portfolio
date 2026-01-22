@@ -99,5 +99,14 @@ const projects = ref([
     },
 ]);
 
+const props = defineProps({
+    currentCategory: {
+        type: String,
+        required: true,
+    },
+});
+
+console.log(props.currentCategory);
+
 const togglePopup = ref(false);
 </script>
