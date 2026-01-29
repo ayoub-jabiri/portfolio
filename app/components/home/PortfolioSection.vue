@@ -20,6 +20,5 @@ const currentCategory = ref("All");
 
 const updateCategory = (data) => {
     currentCategory.value = data;
-    console.log(currentCategory.value);
 };
 </script>

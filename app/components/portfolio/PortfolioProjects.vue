@@ -10,67 +10,65 @@
                 :src="project.cover"
                 :alt="`${project.title} Cover`"
                 class="rounded-md cursor-pointer"
-                @click="togglePopup = true"
+                @click="handlePopup(project)"
             />
-            <!-- Start Project Pop up -->
+        </div>
+        <!-- Start Project Pop up -->
+        <div
+            v-if="togglePopup"
+            class="fixed left-0 top-0 w-screen h-screen z-10 p-6 bg-[#0000002b] flex justify-center items-center"
+        >
             <div
-                v-if="togglePopup"
-                class="fixed left-0 top-0 w-screen h-screen z-10 p-6 bg-[#0000002b] flex justify-center items-center"
+                class="relative bg-[#f8f8f8] p-6 max-md:pt-[45px] grid grid-cols-12 items-center gap-5 max-md:w-full max-lg:w-[500px] lg:w-[700px] rounded-md"
             >
-                <div
-                    class="relative bg-[#f8f8f8] p-6 max-md:pt-[45px] grid grid-cols-12 items-center gap-5 max-md:w-full max-lg:w-[500px] lg:w-[700px] rounded-md"
+                <button
+                    class="absolute top-2.5 right-2.5 text-3xl w-[30px] h-[30px] flex justify-center items-center cursor-pointer"
+                    @click="togglePopup = false"
                 >
-                    <button
-                        class="absolute top-2.5 right-2.5 text-3xl w-[30px] h-[30px] flex justify-center items-center cursor-pointer"
-                        @click="togglePopup = false"
+                    <i class="ri-close-line"></i>
+                </button>
+                <div class="col-span-12 lg:col-span-6">
+                    <img
+                        :src="currentProject.cover"
+                        :alt="`${currentProject.title} Cover`"
+                        class="max-w-[300px] max-lg:mx-auto rounded-md shadow-md"
+                    />
+                </div>
+                <div class="col-span-12 lg:col-span-6">
+                    <h3 class="text-xl max-lg:text-center font-bold mb-2">
+                        {{ currentProject.title }}
+                    </h3>
+                    <p class="max-lg:text-center mb-4">
+                        {{ currentProject.description }}
+                    </p>
+                    <span
+                        class="block bg-[#e4e4e4] text-black text-sm text-center w-[60px] py-1 max-lg:mx-auto mb-4 rounded-md"
                     >
-                        <i class="ri-close-line"></i>
-                    </button>
-                    <div class="col-span-12 lg:col-span-6">
-                        <img
-                            :src="project.cover"
-                            :alt="`${project.title} Cover`"
-                            class="max-w-[300px] max-lg:mx-auto rounded-md shadow-md"
-                        />
-                    </div>
-                    <div class="col-span-12 lg:col-span-6">
-                        <h3 class="text-xl max-lg:text-center font-bold mb-2">
-                            {{ project.title }}
-                        </h3>
-                        <p class="max-lg:text-center mb-4">
-                            {{ project.description }}
-                        </p>
-                        <span
-                            class="block bg-[#e4e4e4] text-black text-sm text-center w-[60px] py-1 max-lg:mx-auto mb-4 rounded-md"
+                        {{ currentProject.category }}
+                    </span>
+                    <div class="flex max-lg:justify-center items-center gap-3">
+                        <a
+                            :href="currentProject.demo"
+                            target="_blank"
+                            class="bg-transparent text-[#2196F3] hover:bg-[#2196F3] hover:text-white border border-[#2196F3] transition w-[130px] py-2 rounded-md text-center flex justify-center items-center gap-2"
                         >
-                            {{ project.category }}
-                        </span>
-                        <div
-                            class="flex max-lg:justify-center items-center gap-3"
+                            <i class="ri-slideshow-3-line"></i>
+                            <span>Live Demo</span>
+                        </a>
+                        <a
+                            v-if="currentProject.demo"
+                            :href="currentProject.sourceCode"
+                            target="_blank"
+                            class="bg-transparent text-[#2196F3] hover:bg-[#2196F3] hover:text-white border border-[#2196F3] transition w-[130px] py-2 rounded-md text-center flex justify-center items-center gap-2"
                         >
-                            <a
-                                :href="project.demo"
-                                target="_blank"
-                                class="bg-transparent text-[#2196F3] hover:bg-[#2196F3] hover:text-white border border-[#2196F3] transition w-[130px] py-2 rounded-md text-center flex justify-center items-center gap-2"
-                            >
-                                <i class="ri-slideshow-3-line"></i>
-                                <span>Live Demo</span>
-                            </a>
-                            <a
-                                v-if="project.demo"
-                                :href="project.sourceCode"
-                                target="_blank"
-                                class="bg-transparent text-[#2196F3] hover:bg-[#2196F3] hover:text-white border border-[#2196F3] transition w-[130px] py-2 rounded-md text-center flex justify-center items-center gap-2"
-                            >
-                                <i class="ri-code-line"></i>
-                                <span>Source Code</span>
-                            </a>
-                        </div>
+                            <i class="ri-code-line"></i>
+                            <span>Source Code</span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <!-- End Project Pop up -->
         </div>
+        <!-- End Project Pop up -->
     </div>
 </template>
 
@@ -107,6 +105,8 @@ const projects = ref([
     },
 ]);
 
+const currentProject = ref({});
+
 const props = defineProps({
     currentCategory: {
         type: String,
@@ -127,4 +127,15 @@ const filtredProjects = computed(() => {
         );
     }
 });
+
+// Start Methods
+
+const handlePopup = (p) => {
+    // Toggle Pop up
+    togglePopup.value = true;
+
+    currentProject.value = p;
+
+    console.log(currentProject.value);
+};
 </script>
