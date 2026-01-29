@@ -106,7 +106,5 @@ const props = defineProps({
     },
 });
 
-console.log(props.currentCategory);
-
 const togglePopup = ref(false);
 </script>
