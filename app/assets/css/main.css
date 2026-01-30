@@ -2,7 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"); */
 
 html {
     scroll-behavior: smooth;
@@ -45,9 +44,10 @@ body {
 }
 
 .main-btn {
-    padding: 1rem;
-    background-color: #ff9800;
+    width: 150px;
+    text-align: center;
     border-radius: 0.375rem;
+    cursor: pointer;
 }
 .blue-color {
     color: #2196f3;

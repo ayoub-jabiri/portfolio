@@ -7,7 +7,9 @@
                     Ayoub Jabiri a <br />
                     Front End Developer
                 </h1>
-                <a href="#" class="main-btn">Download CV</a>
+                <a href="#" class="main-btn bg-[#ff9800] text-white p-4">
+                    Download CV
+                </a>
             </div>
         </div>
     </section>
