@@ -5,7 +5,7 @@
             <div id="skills-container" class="grid grid-cols-12 gap-4">
                 <div
                     id="skill-box"
-                    class="col-span-6 md:col-span-3 lg:col-span-2 flex justify-center items-center flex-col gap-2 p-4 bg-[#e4e4e4] rounded-md hover:bg-[#2196F3] hover:text-white transition"
+                    class="col-span-6 md:col-span-3 lg:col-span-2 flex justify-center items-center flex-col gap-2 p-4 bg-[#e4e4e4] rounded-md hover:bg-[#2196F3] hover:text-white main-transition"
                     v-for="skill in skills"
                     :key="skill.title"
                 >

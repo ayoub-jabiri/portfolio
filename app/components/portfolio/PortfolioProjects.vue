@@ -50,7 +50,7 @@
                         <a
                             :href="currentProject.demo"
                             target="_blank"
-                            class="bg-transparent text-[#2196F3] hover:bg-[#2196F3] hover:text-white border border-[#2196F3] transition w-[130px] py-2 rounded-md text-center flex justify-center items-center gap-2"
+                            class="bg-transparent text-[#2196F3] hover:bg-[#2196F3] hover:text-white border border-[#2196F3] main-transition w-[130px] py-2 rounded-md text-center flex justify-center items-center gap-2"
                         >
                             <i class="ri-slideshow-3-line"></i>
                             <span>Live Demo</span>
@@ -59,7 +59,7 @@
                             v-if="currentProject.demo"
                             :href="currentProject.sourceCode"
                             target="_blank"
-                            class="bg-transparent text-[#2196F3] hover:bg-[#2196F3] hover:text-white border border-[#2196F3] transition w-[130px] py-2 rounded-md text-center flex justify-center items-center gap-2"
+                            class="bg-transparent text-[#2196F3] hover:bg-[#2196F3] hover:text-white border border-[#2196F3] main-transition w-[130px] py-2 rounded-md text-center flex justify-center items-center gap-2"
                         >
                             <i class="ri-code-line"></i>
                             <span>Source Code</span>

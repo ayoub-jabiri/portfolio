@@ -28,7 +28,7 @@
                     <li v-for="link in links" :key="link.title">
                         <nuxt-link
                             :to="link.section"
-                            class="transition max-md:hover:text-[#2196f3] max-lg:hover:bg-[#e4e4e4]"
+                            class="main-transition max-md:hover:text-[#2196f3] max-lg:hover:bg-[#e4e4e4]"
                             @click="toggleNav = false"
                         >
                             {{ link.title }}

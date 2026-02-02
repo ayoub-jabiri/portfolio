@@ -5,7 +5,7 @@
             <SectionHead :title="title" :desc="description" />
             <div class="services grid grid-cols-12 items-stretch gap-5">
                 <div
-                    class="srv-box col-span-12 md:col-span-6 lg:col-span-4 bg-[#BBDEFB] hover:bg-[#2196f3] hover:text-white group transition-all p-5 rounded-md text-center"
+                    class="srv-box col-span-12 md:col-span-6 lg:col-span-4 bg-[#BBDEFB] hover:bg-[#2196f3] hover:text-white group main-transition p-5 rounded-md text-center"
                     v-for="service in services"
                     :key="service.title"
                 >

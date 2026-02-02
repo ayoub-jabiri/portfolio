@@ -1,7 +1,16 @@
 @import "tailwindcss";
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@layer components {
+    .main-color {
+        color: #2196f3;
+    }
+    .main-transition {
+        transition: 0.3s;
+    }
+}
 
 html {
     scroll-behavior: smooth;

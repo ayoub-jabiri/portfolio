@@ -4,14 +4,14 @@
         class="w-fit mx-auto mb-6 border border-[#e4e4e4]"
     >
         <button
-            class="md:hidden w-[150px] p-2 flex justify-center items-center gap-3 hover:bg-[#e4e4e4] transition cursor-pointer"
+            class="md:hidden w-[150px] p-2 flex justify-center items-center gap-3 hover:bg-[#e4e4e4] main-transition cursor-pointer"
             @click="toggleMobileFilter = true"
         >
             <i class="ri-filter-3-line"></i>
             <span>Filter</span>
         </button>
         <div
-            class="flex justify-center items-center gap-5 p-3 max-md:bg-white max-md:fixed top-0 max-md:w-[150px] max-md:h-screen transition-[left_0.3s] md:flex-wrap max-md:flex-col max-md:shadow-md"
+            class="flex justify-center items-center gap-5 p-3 max-md:bg-white max-md:fixed top-0 max-md:w-[150px] max-md:h-screen main-transition md:flex-wrap max-md:flex-col max-md:shadow-md"
             :class="`${toggleMobileFilter ? 'left-0' : 'left-[-150%]'}`"
         >
             <button
@@ -24,7 +24,7 @@
             <button
                 v-for="category in categories"
                 :key="category.title"
-                class="w-[70px] py-2 rounded-md hover:bg-[#e4e4e4] transition cursor-pointer"
+                class="w-[70px] py-2 rounded-md hover:bg-[#e4e4e4] main-transition cursor-pointer"
                 :class="category.active ? 'bg-[#e4e4e4]' : ''"
                 @click="handleCategory"
             >
