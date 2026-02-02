@@ -2,7 +2,7 @@
     <div class="grid grid-cols-12 items-stretch gap-5">
         <div
             id="project-box"
-            v-for="project in projects"
+            v-for="project in filtredProjects"
             :key="project.sourceCode"
             class="col-span-12 md:col-span-6 lg:col-span-4 bg-white p-4 border border-[#e4e4e4] rounded-md"
         >
