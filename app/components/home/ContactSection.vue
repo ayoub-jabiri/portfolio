@@ -15,19 +15,22 @@
                     </a>
                     <div id="social-links" class="flex items-center gap-3">
                         <a
-                            href="#"
+                            href="mailto:ayoubjabiri.business@gmail.com"
+                            target="_blank"
                             class="w-[30px] h-[30px] flex justify-center items-center text-white border border-white rounded-md text-2xl"
                         >
                             <i class="ri-mail-line"></i>
                         </a>
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/ayoub-jabiri-2552202a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank"
                             class="w-[30px] h-[30px] flex justify-center items-center text-white border border-white rounded-md text-2xl"
                         >
                             <i class="ri-linkedin-fill"></i>
                         </a>
                         <a
-                            href="#"
+                            href="https://github.com/ayoub-jabiri"
+                            target="_blank"
                             class="w-[30px] h-[30px] flex justify-center items-center text-white border border-white rounded-md text-2xl"
                         >
                             <i class="ri-github-fill"></i>
