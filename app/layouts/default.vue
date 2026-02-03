@@ -1,9 +1,14 @@
 <template>
-  <div class="app-layout">
-    <AppHeader />
-    <main>
-      <slot />
-    </main>
-    <AppFooter />
-  </div>
+    <div class="app-layout">
+        <AppHeader v-if="route.name != 'projects'" />
+        <SubHeader v-if="route.name == 'projects'" />
+        <main>
+            <slot />
+        </main>
+        <AppFooter />
+    </div>
 </template>
+
+<script setup>
+let route = useRoute();
+</script>
