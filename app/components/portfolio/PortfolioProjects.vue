@@ -75,35 +75,16 @@
 <script setup>
 import { ref, computed } from "vue";
 
-const projects = ref([
-    {
-        cover: "/imgs/projects/project-1.webp",
-        title: "Website 1",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloremque odio ipsa eum, officia tenetur nostrum unde nesciunt culpa deleniti non necessitatibus! Recusandae quis aperiam asperiores! Nemo ab provident possimus?",
-        demo: "https://ayoub-jabiri.github.io/static-template-8",
-        sourceCode: "https://github.com/ayoub-jabiri/static-template-8.git",
-        category: "vue.js",
-    },
-    {
-        cover: "/imgs/projects/project-1.webp",
-        title: "Website 2",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloremque odio ipsa eum, officia tenetur nostrum unde nesciunt culpa deleniti non necessitatibus! Recusandae quis aperiam asperiores! Nemo ab provident possimus?",
-        demo: "https://ayoub-jabiri.github.io/static-template-8",
-        sourceCode: "https://github.com/ayoub-jabiri/static-template-8.git",
-        category: "js",
-    },
-    {
-        cover: "/imgs/projects/project-1.webp",
-        title: "Website 3",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloremque odio ipsa eum, officia tenetur nostrum unde nesciunt culpa deleniti non necessitatibus! Recusandae quis aperiam asperiores! Nemo ab provident possimus?",
-        demo: "https://ayoub-jabiri.github.io/static-template-8",
-        sourceCode: "https://github.com/ayoub-jabiri/static-template-8.git",
-        category: "nuxt.js",
-    },
-]);
+// Pinia
+
+const useStore = useProjectsStore();
+
+const { storeProjects } = storeToRefs(useStore);
+const { getProjects } = useStore;
+
+// Main Variables
+
+const projects = ref([]);
 
 const currentProject = ref({});
 
@@ -128,6 +109,14 @@ const filtredProjects = computed(() => {
     }
 });
 
+// Lifecycle Hooks
+
+onMounted(async () => {
+    await getProjects();
+
+    projects.value = storeProjects.value;
+});
+
 // Start Methods
 
 const handlePopup = (p) => {
@@ -135,7 +124,5 @@ const handlePopup = (p) => {
     togglePopup.value = true;
 
     currentProject.value = p;
-
-    console.log(currentProject.value);
 };
 </script>

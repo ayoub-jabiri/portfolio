@@ -1,3 +1,31 @@
 {
-    "name": "test"
+    "projects": [
+        {
+        "cover": "/imgs/projects/project-1.webp",
+        "title": "Website 1",
+        "description":
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloremque odio ipsa eum, officia tenetur nostrum unde nesciunt culpa deleniti non necessitatibus! Recusandae quis aperiam asperiores! Nemo ab provident possimus?",
+        "demo": "https://ayoub-jabiri.github.io/static-template-8",
+        "sourceCode": "https://github.com/ayoub-jabiri/static-template-8.git",
+        "category": "vue.js"
+    },
+    {
+        "cover": "/imgs/projects/project-1.webp",
+        "title": "Website 2",
+        "description":
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloremque odio ipsa eum, officia tenetur nostrum unde nesciunt culpa deleniti non necessitatibus! Recusandae quis aperiam asperiores! Nemo ab provident possimus?",
+        "demo": "https://ayoub-jabiri.github.io/static-template-8",
+        "sourceCode": "https://github.com/ayoub-jabiri/static-template-8.git",
+        "category": "js"
+    },
+    {
+        "cover": "/imgs/projects/project-1.webp",
+        "title": "Website 3",
+        "description":
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloremque odio ipsa eum, officia tenetur nostrum unde nesciunt culpa deleniti non necessitatibus! Recusandae quis aperiam asperiores! Nemo ab provident possimus?",
+        "demo": "https://ayoub-jabiri.github.io/static-template-8",
+        "sourceCode": "https://github.com/ayoub-jabiri/static-template-8.git",
+        "category": "nuxt.js"
+    }
+    ]
 }

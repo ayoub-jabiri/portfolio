@@ -11,17 +11,14 @@
 <script setup>
 import { ref } from "vue";
 import { useProjectsStore } from "~/stores/projects";
+import { storeToRefs } from "pinia";
+
+// Main Variables
 
 const title = "Portfolio",
     description = "This is Portfolio Section";
 
 const currentCategory = ref("All");
-
-const projectsStore = useProjectsStore();
-
-onMounted(() => {
-    projectsStore.getProjects();
-});
 
 // Start Methods
 
