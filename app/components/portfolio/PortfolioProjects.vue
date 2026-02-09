@@ -41,11 +41,18 @@
                     <p class="max-lg:text-center mb-4">
                         {{ currentProject.description }}
                     </p>
-                    <span
-                        class="block bg-[#e4e4e4] text-black text-sm text-center w-[60px] py-1 max-lg:mx-auto mb-4 rounded-md"
+                    <div
+                        id="tech-used"
+                        class="flex justify-start items-center gap-1"
                     >
-                        {{ currentProject.category }}
-                    </span>
+                        <span
+                            v-for="tech in currentProject.techs"
+                            :key="tech"
+                            class="block bg-[#e4e4e4] text-black text-sm text-center min-w-[60px] px-2 py-1 max-lg:mx-auto mb-4 rounded-md"
+                        >
+                            {{ tech }}
+                        </span>
+                    </div>
                     <div class="flex max-lg:justify-center items-center gap-3">
                         <a
                             :href="currentProject.demo"
