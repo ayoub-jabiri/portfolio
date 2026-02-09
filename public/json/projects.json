@@ -3,6 +3,7 @@
         {
         "cover": "/imgs/projects/project-1.webp",
         "title": "Website 1",
+        "category": "Website/Landing Page",
         "description":
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloremque odio ipsa eum, officia tenetur nostrum unde nesciunt culpa deleniti non necessitatibus! Recusandae quis aperiam asperiores! Nemo ab provident possimus?",
         "demo": "https://ayoub-jabiri.github.io/static-template-8",
@@ -12,6 +13,7 @@
     {
         "cover": "/imgs/projects/project-1.webp",
         "title": "Website 2",
+        "category": "Website/Landing Page",
         "description":
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloremque odio ipsa eum, officia tenetur nostrum unde nesciunt culpa deleniti non necessitatibus! Recusandae quis aperiam asperiores! Nemo ab provident possimus?",
         "demo": "https://ayoub-jabiri.github.io/static-template-8",
@@ -21,6 +23,7 @@
     {
         "cover": "/imgs/projects/project-1.webp",
         "title": "Website 3",
+        "category": "Website/Landing Page",
         "description":
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloremque odio ipsa eum, officia tenetur nostrum unde nesciunt culpa deleniti non necessitatibus! Recusandae quis aperiam asperiores! Nemo ab provident possimus?",
         "demo": "https://ayoub-jabiri.github.io/static-template-8",

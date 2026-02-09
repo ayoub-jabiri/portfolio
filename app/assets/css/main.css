@@ -4,6 +4,9 @@
 @tailwind utilities; */
 
 @layer components {
+    .main-bg {
+        background-color: #2196f3;
+    }
     .main-color {
         color: #2196f3;
     }

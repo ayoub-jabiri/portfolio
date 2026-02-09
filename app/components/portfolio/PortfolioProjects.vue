@@ -9,9 +9,25 @@
             <img
                 :src="project.cover"
                 :alt="`${project.title} Cover`"
-                class="rounded-md cursor-pointer"
-                @click="handlePopup(project)"
+                class="rounded-md"
             />
+
+            <div class="flex justify-between items-center mt-2">
+                <div>
+                    <h3 class="font-bold">{{ project.title }}</h3>
+                    <span
+                        class="block text-[#333] text-sm max-lg:text-center mb-2"
+                    >
+                        {{ project.category }}
+                    </span>
+                </div>
+                <button
+                    class="main-bg text-white w-[30px] h-[30px] rounded-[50%] cursor-pointer"
+                    @click="handlePopup(project)"
+                >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                </button>
+            </div>
         </div>
         <!-- Start Project Pop up -->
         <div
@@ -35,20 +51,25 @@
                     />
                 </div>
                 <div class="col-span-12 lg:col-span-6">
-                    <h3 class="text-xl max-lg:text-center font-bold mb-2">
+                    <h4 class="text-xl max-lg:text-center font-bold">
                         {{ currentProject.title }}
-                    </h3>
+                    </h4>
+                    <span
+                        class="block text-[#333] text-sm max-lg:text-center mb-2"
+                    >
+                        {{ currentProject.category }}
+                    </span>
                     <p class="max-lg:text-center mb-4">
                         {{ currentProject.description }}
                     </p>
                     <div
                         id="tech-used"
-                        class="flex justify-start items-center gap-1"
+                        class="flex max-lg:justify-center lg:justify-start items-center gap-1 mb-4"
                     >
                         <span
                             v-for="tech in currentProject.techs"
                             :key="tech"
-                            class="block bg-[#e4e4e4] text-black text-sm text-center min-w-[60px] px-2 py-1 max-lg:mx-auto mb-4 rounded-md"
+                            class="block bg-[#e4e4e4] text-black text-sm text-center min-w-[60px] px-2 py-1 rounded-md"
                         >
                             {{ tech }}
                         </span>
@@ -108,10 +129,8 @@ const filtredProjects = computed(() => {
     if (props.currentCategory.toLocaleLowerCase() == "all") {
         return projects.value;
     } else {
-        return projects.value.filter(
-            (project) =>
-                project.category.toLowerCase() ==
-                props.currentCategory.toLocaleLowerCase()
+        return projects.value.filter((project) =>
+            project.techs.includes(props.currentCategory.toLowerCase())
         );
     }
 });
