@@ -1,34 +1,92 @@
 {
     "projects": [
         {
-        "cover": "/imgs/projects/project-1.jpg",
-        "title": "Leon",
-        "category": "Website/Landing Page",
-        "description":
-            "Leon is a static landing page template characterized by a modern and clean design intended for reuse in various web projects.",
-        "demo": "https://ayoub-jabiri.github.io/static-template-1/",
-        "sourceCode": "https://github.com/ayoub-jabiri/static-template-1.git",
-        "techs": ["html", "css", "js"]
-    },
-    {
-        "cover": "/imgs/projects/project-2.jpg",
-        "title": "Kasper",
-        "category": "Website/Landing Page",
-        "description":
-            "Kasper is a sophisticated, single-page HTML, CSS, and JS template designed for corporate and creative agency websites. It features a modern dark-themed aesthetic with sections for services, portfolio showcases, and client testimonials.",
-        "demo": "https://ayoub-jabiri.github.io/static-template-2",
-        "sourceCode": "https://github.com/ayoub-jabiri/static-template-2.git",
-        "techs": ["html", "css", "js"]
-    },
-    {
-        "cover": "/imgs/projects/project-3.jpg",
-        "title": "Elzero",
-        "category": "Website/Landing Page",
-        "description":
-            "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
-        "demo": "https://ayoub-jabiri.github.io/static-template-3",
-        "sourceCode": "https://github.com/ayoub-jabiri/static-template-3.git",
-        "techs": ["html", "css", "js"]
-    }
+            "cover": "/imgs/projects/project-1.jpg",
+            "title": "Leon",
+            "category": "Website/Landing Page",
+            "description": "Leon is a static landing page template characterized by a modern and clean design intended for reuse in various web projects.",
+            "demo": "https://ayoub-jabiri.github.io/static-template-1/",
+            "sourceCode": "https://github.com/ayoub-jabiri/static-template-1.git",
+            "techs": ["html", "css", "js"]
+        },
+        {
+            "cover": "/imgs/projects/project-2.jpg",
+            "title": "Kasper",
+            "category": "Website/Landing Page",
+            "description": "Kasper is a sophisticated, single-page HTML, CSS, and JS template designed for corporate and creative agency websites. It features a modern dark-themed aesthetic with sections for services, portfolio showcases, and client testimonials.",
+            "demo": "https://ayoub-jabiri.github.io/static-template-2",
+            "sourceCode": "https://github.com/ayoub-jabiri/static-template-2.git",
+            "techs": ["html", "css", "js"]
+        },
+        {
+            "cover": "/imgs/projects/project-3.jpg",
+            "title": "Elzero",
+            "category": "Website/Landing Page",
+            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "demo": "https://ayoub-jabiri.github.io/static-template-3",
+            "sourceCode": "https://github.com/ayoub-jabiri/static-template-3.git",
+            "techs": ["html", "css", "js"]
+        },
+        {
+            "cover": "/imgs/projects/project-4.jpg",
+            "title": "Elzero",
+            "category": "Dashboard",
+            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "demo": "https://ayoub-jabiri.github.io/static-template-4",
+            "sourceCode": "https://github.com/ayoub-jabiri/static-template-4.git",
+            "techs": ["html", "css", "js"]
+        },
+        {
+            "cover": "/imgs/projects/project-5.jpg",
+            "title": "Bondi",
+            "category": "Website/Landing Page",
+            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "demo": "https://ayoub-jabiri.github.io/static-template-5",
+            "sourceCode": "https://github.com/ayoub-jabiri/static-template-5.git",
+            "techs": ["html", "css", "js", "bootstrap"]
+        },
+        {
+            "cover": "/imgs/projects/project-6.jpg",
+            "title": "Special Design",
+            "category": "Website/Landing Page",
+            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "demo": "https://ayoub-jabiri.github.io/static-template-6",
+            "sourceCode": "https://github.com/ayoub-jabiri/static-template-6.git",
+            "techs": ["html", "css", "js"]
+        },
+        {
+            "cover": "/imgs/projects/project-7.jpg",
+            "title": "Doob",
+            "category": "Website/Landing Page",
+            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "demo": "https://ayoub-jabiri.github.io/static-template-7",
+            "sourceCode": "https://github.com/ayoub-jabiri/static-template-7.git",
+            "techs": ["html", "css", "js"]
+        },
+        {
+            "cover": "/imgs/projects/project-8.jpg",
+            "title": "Luxestate",
+            "category": "Website/Landing Page",
+            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "demo": "https://ayoub-jabiri.github.io/static-template-8",
+            "sourceCode": "https://github.com/ayoub-jabiri/static-template-8.git",
+            "techs": ["html", "css", "js"]
+        },
+        {
+            "cover": "/imgs/projects/project-9.jpg",
+            "title": "NexReview",
+            "category": "Blog",
+            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "demo": "https://nexreview.com/",
+            "techs": ["html", "css", "js", "bootstrap", "pug.js", "scss", "gulp.js"]
+        },
+        {
+            "cover": "/imgs/projects/project-10.jpg",
+            "title": "F24 Editabile",
+            "category": "Service Website",
+            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "demo": "https://f24editabile.com/",
+            "techs": ["nuxt.js", "tailwindcss"]
+        }
     ]
 }
