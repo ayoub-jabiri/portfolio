@@ -9,7 +9,7 @@ export const useProjectsStore = defineStore("projectsStore", {
             let res = await fetch("/json/projects.json");
             let data = await res.json();
 
-            this.storeProjects = data.projects;
+            this.storeProjects = data.projects.reverse();
         },
     },
 });
