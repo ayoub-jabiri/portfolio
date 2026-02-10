@@ -23,6 +23,7 @@
                 </div>
                 <button
                     class="main-bg text-white w-[30px] h-[30px] rounded-[50%] cursor-pointer"
+                    title="Display More Info"
                     @click="handlePopup(project)"
                 >
                     <i class="ri-arrow-right-up-long-line"></i>
@@ -123,6 +124,8 @@ const props = defineProps({
     },
 });
 
+let route = useRoute();
+
 const togglePopup = ref(false);
 
 const filtredProjects = computed(() => {
@@ -140,7 +143,10 @@ const filtredProjects = computed(() => {
 onMounted(async () => {
     await getProjects();
 
-    projects.value = storeProjects.value;
+    projects.value =
+        route.name == "index"
+            ? storeProjects.value.slice(0, 6)
+            : storeProjects.value;
 });
 
 // Start Methods
