@@ -64,7 +64,7 @@
                     </p>
                     <div
                         id="tech-used"
-                        class="flex max-lg:justify-center lg:justify-start items-center gap-1 mb-4"
+                        class="flex max-lg:justify-center lg:justify-start items-center gap-1 flex-wrap mb-4"
                     >
                         <span
                             v-for="tech in currentProject.techs"
