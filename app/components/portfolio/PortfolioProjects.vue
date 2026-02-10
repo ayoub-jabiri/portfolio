@@ -9,7 +9,7 @@
             <img
                 :src="project.cover"
                 :alt="`${project.title} Cover`"
-                class="rounded-md"
+                class="shadow-sm"
             />
 
             <div class="flex justify-between items-center mt-2">
@@ -47,7 +47,7 @@
                     <img
                         :src="currentProject.cover"
                         :alt="`${currentProject.title} Cover`"
-                        class="max-w-[300px] max-lg:mx-auto rounded-md shadow-md"
+                        class="max-w-[300px] max-lg:mx-auto shadow-sm"
                     />
                 </div>
                 <div class="col-span-12 lg:col-span-6">
