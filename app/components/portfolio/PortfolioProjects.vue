@@ -84,7 +84,7 @@
                             <span>Live Demo</span>
                         </a>
                         <a
-                            v-if="currentProject.demo"
+                            v-if="currentProject.sourceCode"
                             :href="currentProject.sourceCode"
                             target="_blank"
                             class="bg-transparent text-[#2196F3] hover:bg-[#2196F3] hover:text-white border border-[#2196F3] main-transition w-[130px] py-2 rounded-md text-center flex justify-center items-center gap-2"
