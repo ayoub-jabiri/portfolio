@@ -1,56 +1,51 @@
 <template>
     <section class="py-15" id="contact">
         <div class="container">
-            <div class="grid grid-cols-12 max-lg:text-center items-center">
-                <div class="col-span-12 lg:col-span-6">
-                    <h2 class="text-white text-3xl font-bold mb-2">
-                        Got a Project! Let's <br />
-                        Talk
-                    </h2>
-                    <a
-                        href="#"
-                        class="main-btn block bg-transparent text-white border border-white p-4 max-lg:mx-auto mb-4 main-transition hover:bg-white hover:text-black"
-                    >
-                        Download CV
-                    </a>
-                    <div
-                        id="social-links"
-                        class="flex max-lg:justify-center items-center gap-3"
-                    >
-                        <a
-                            href="mailto:ayoubjabiri.business@gmail.com"
-                            target="_blank"
-                            class="w-[30px] h-[30px] flex justify-center items-center text-white border border-white rounded-md text-2xl"
-                        >
-                            <i class="ri-mail-line"></i>
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/ayoub-jabiri-2552202a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                            target="_blank"
-                            class="w-[30px] h-[30px] flex justify-center items-center text-white border border-white rounded-md text-2xl"
-                        >
-                            <i class="ri-linkedin-fill"></i>
-                        </a>
-                        <a
-                            href="https://github.com/ayoub-jabiri"
-                            target="_blank"
-                            class="w-[30px] h-[30px] flex justify-center items-center text-white border border-white rounded-md text-2xl"
-                        >
-                            <i class="ri-github-fill"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-span-12 lg:col-span-6">
-                    <img
-                        src="/imgs/contact.png"
-                        alt="Conatct Illustration"
-                        class="w-[400px] mx-auto"
-                    />
+            <h2 class="text-white text-3xl text-center font-bold mb-4">
+                Got a Project! Let's Talk
+            </h2>
+            <div
+                class="grid grid-cols-12 gap-3 max-lg:text-center items-center"
+            >
+                <div
+                    v-for="link in links"
+                    :key="link.title"
+                    class="col-span-12 md:col-span-6 lg:col-span-4 bg-transparent text-white border border-white main-transition p-4 text-center rounded-md hover:bg-[#333] hover:text-white hover:border-white"
+                >
+                    <span v-html="link.icon" class="text-3xl"></span>
+                    <h3>{{ link.title }}</h3>
+                    <a :href="link.url" class="underline">{{ link.desc }}</a>
                 </div>
             </div>
         </div>
     </section>
 </template>
+
+<script setup>
+const links = [
+    {
+        icon: '<i class="ri-mail-line"></i>',
+        title: "Email",
+        desc: "ayoubjabiri.business@gmail.com",
+        url: "mailto:ayoubjabiri.business@gmail.com",
+        color: "#ea4335",
+    },
+    {
+        icon: '<i class="ri-linkedin-fill"></i>',
+        title: "Linkdedin",
+        desc: "ayoub-jabiri",
+        url: "https://www.linkedin.com/in/ayoub-jabiri-2552202a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        color: "#0a66c2",
+    },
+    {
+        icon: '<i class="ri-github-fill"></i>',
+        title: "GitHub",
+        desc: "ayoub-jabiri",
+        url: "https://github.com/ayoub-jabiri",
+        color: "#333",
+    },
+];
+</script>
 
 <style scoped>
 section {
