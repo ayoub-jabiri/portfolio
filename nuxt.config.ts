@@ -16,7 +16,11 @@ export default defineNuxtConfig({
             pathPrefix: false,
         },
     ],
+    nitro: {
+        preset: "github-pages",
+    },
     app: {
+        baseURL: "/portfolio/", // Example: '/my-portfolio/'
         head: {
             link: [
                 {
