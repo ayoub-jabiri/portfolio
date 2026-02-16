@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-[#2196F3] py-4 sticky top-0">
+    <header class="bg-[#2196F3] py-4 sticky top-0 z-[1000]">
         <div class="container flex justify-between items-center text-white">
             <div class="logo">
                 <nuxt-link to="/" class="text-2xl font-bold">Ayoub</nuxt-link>
@@ -81,7 +81,6 @@ const toggleNav = ref(false);
         background-color: #fff;
         width: 100vw;
         height: 100vh;
-        z-index: 10;
         transition: right 0.3s;
     }
     nav ul {

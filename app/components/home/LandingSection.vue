@@ -4,11 +4,11 @@
             <vue-particles
                 id="tsparticles"
                 :options="particleOptions"
-                class="absolute top-0 left-0 w-full h-full"
+                class="absolute top-0 left-0 z-0 w-full h-full pointer-events-none"
             />
         </ClientOnly>
         <div
-            class="container h-full flex flex-col justify-center text-center relative"
+            class="container h-full flex flex-col justify-center text-center relative z-50"
         >
             <div class="content">
                 <h1 class="text-5xl font-bold mb-8">
@@ -31,7 +31,7 @@
 const particleOptions = {
     // CRITICAL: Disable fullScreen to keep it inside the section
     fullScreen: { enable: false },
-
+    zIndex: { value: 0 },
     fpsLimit: 60,
     particles: {
         number: { value: 200, density: { enable: true, area: 800 } },
@@ -45,6 +45,7 @@ const particleOptions = {
         size: { value: { min: 1, max: 3 } },
     },
     interactivity: {
+        detectsOn: "window",
         events: {
             onHover: { enable: true, mode: "grab" },
         },
