@@ -8,7 +8,7 @@
             />
         </ClientOnly>
         <div
-            class="container h-full flex flex-col justify-center text-center relative z-50"
+            class="container h-full flex flex-col justify-center text-center relative z-10"
         >
             <div class="content">
                 <h1 class="text-5xl font-bold mb-8">

@@ -11,7 +11,7 @@
             <span>Filter</span>
         </button>
         <div
-            class="flex justify-center items-center gap-5 p-3 max-md:bg-white max-md:fixed top-0 max-md:w-[150px] max-md:h-screen main-transition md:flex-wrap max-md:flex-col max-md:shadow-md"
+            class="flex justify-center items-center gap-5 p-3 max-md:bg-white max-md:fixed top-0 z-50 max-md:w-[150px] max-md:h-screen main-transition md:flex-wrap max-md:flex-col max-md:shadow-md"
             :class="`${toggleMobileFilter ? 'left-0' : 'left-[-150%]'}`"
         >
             <button

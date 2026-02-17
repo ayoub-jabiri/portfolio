@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-[#2196F3] py-4 sticky top-0 z-[1000]">
+    <header class="bg-[#2196F3] py-4 sticky top-0 z-11">
         <div class="container flex justify-between items-center text-white">
             <div class="logo">
                 <nuxt-link to="/" class="text-2xl font-bold">Ayoub</nuxt-link>
