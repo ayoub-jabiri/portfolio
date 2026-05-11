@@ -40,7 +40,7 @@
             "cover": "/imgs/projects/project-5.jpg",
             "title": "Bondi",
             "category": "Website/Landing Page",
-            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "description": "A sophisticated, image-centric static template crafted for visual storytelling. Perfectly suited for photography portfolios, high-end lifestyle galleries, or creative lookbooks.",
             "demo": "https://ayoub-jabiri.github.io/static-template-5",
             "sourceCode": "https://github.com/ayoub-jabiri/static-template-5.git",
             "techs": ["html", "css", "js", "bootstrap"]
@@ -49,7 +49,7 @@
             "cover": "/imgs/projects/project-6.jpg",
             "title": "Special Design",
             "category": "Website/Landing Page",
-            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "description": "A clean, corporate-focused static template designed for startups, consulting firms, or service-based business landing pages. Professional, structured, and conversion-oriented.",
             "demo": "https://ayoub-jabiri.github.io/static-template-6",
             "sourceCode": "https://github.com/ayoub-jabiri/static-template-6.git",
             "techs": ["html", "css", "js"]
@@ -58,7 +58,7 @@
             "cover": "/imgs/projects/project-7.jpg",
             "title": "Doob",
             "category": "Website/Landing Page",
-            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "description": "A clean, minimalist, and highly versatile static template built for personal branding and digital resumes. Streamlined for clarity, it puts your skills and experience front and center.",
             "demo": "https://ayoub-jabiri.github.io/static-template-7",
             "sourceCode": "https://github.com/ayoub-jabiri/static-template-7.git",
             "techs": ["html", "css", "js"]
@@ -67,7 +67,7 @@
             "cover": "/imgs/projects/project-8.jpg",
             "title": "Luxestate",
             "category": "Website/Landing Page",
-            "description": "Elzero is a described as a feature-rich, multi-section HTML, CSS, and JS template designed to resemble a professional portfolio or agency website. Key features include a mega navigation system, dedicated sections for teams, skills, and events, as well as interactive elements like a pricing table and categorized gallery.",
+            "description": "Luxestate is a sleek, high-end static website template designed for premium real estate agencies and modern brokerages. It features a flat, vibrant design optimized for showcasing luxury listings and market insights.",
             "demo": "https://ayoub-jabiri.github.io/static-template-8",
             "sourceCode": "https://github.com/ayoub-jabiri/static-template-8.git",
             "techs": ["html", "css", "js"]
@@ -78,7 +78,15 @@
             "category": "Blog",
             "description": "NexReview is an independent digital platform offering expert analysis and unbiased reviews of technology, including software, tech devices, and video games. The site also provides guides on earning money and building an online income.",
             "demo": "https://nexreview.com/",
-            "techs": ["html", "css", "js", "bootstrap", "pug.js", "scss", "gulp.js"]
+            "techs": [
+                "html",
+                "css",
+                "js",
+                "bootstrap",
+                "pug.js",
+                "scss",
+                "gulp.js"
+            ]
         },
         {
             "cover": "/imgs/projects/project-10.jpg",
