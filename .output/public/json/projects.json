@@ -95,6 +95,15 @@
             "description": "F24 Editabile offers a free online service providing digital versions of official Italian tax payment forms.",
             "demo": "https://f24editabile.com/",
             "techs": ["nuxt.js", "tailwindcss"]
+        },
+        {
+            "cover": "/imgs/projects/project-11.png",
+            "title": "Ella Store",
+            "category": "E-Commerce Website",
+            "description": "Ella Store is a web-based e-commerce front-end application.",
+            "sourceCode": "https://github.com/ayoub-jabiri/ella-store",
+            "demo": "https://ella-store.netlify.app/",
+            "techs": ["vue.js", "vuetify", "pinia"]
         }
     ]
 }
