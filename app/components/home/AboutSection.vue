@@ -18,15 +18,15 @@
                     <p
                         class="max-lg:text-center lg:text-justify max-lg:mx-auto"
                     >
-                        I am a front-end developer specializing in
+                        I am a full stack developer specializing in
                         high-performance, user-friendly interfaces connected to
-                        complex backend systems, using contemporary frameworks
-                        like Vue.js. I focus on creating scalable, accessible,
-                        and responsive web applications, excelling in
-                        collaborative settings, and prioritizing style,
-                        performance optimization, and adherence to industry
-                        standards for speed, security, and SEO, all while
-                        committed to lifelong learning in the web ecosystem.
+                        complex backend systems, using contemporary frameworks.
+                        I focus on creating scalable, accessible, and responsive
+                        web applications, excelling in collaborative settings,
+                        and prioritizing style, performance optimization, and
+                        adherence to industry standards for speed, security, and
+                        SEO, all while committed to lifelong learning in the web
+                        ecosystem.
                     </p>
                 </div>
             </div>

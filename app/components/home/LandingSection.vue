@@ -13,7 +13,7 @@
             <div class="content">
                 <h1 class="text-5xl font-bold mb-8">
                     Hello, I am Ayoub Jabiri a <br />
-                    Front End Developer
+                    Full Stack Developer
                 </h1>
                 <a
                     download

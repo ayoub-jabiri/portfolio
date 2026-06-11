@@ -94,5 +94,29 @@ const skills = [
         icon: "/imgs/skills/figma.png",
         title: "figma",
     },
+    {
+        icon: "/imgs/skills/react.png",
+        title: "react",
+    },
+    {
+        icon: "/imgs/skills/redux.png",
+        title: "redux",
+    },
+    {
+        icon: "/imgs/skills/next.png",
+        title: "next.js",
+    },
+    {
+        icon: "/imgs/skills/node.png",
+        title: "node.js",
+    },
+    {
+        icon: "/imgs/skills/express.png",
+        title: "express.js",
+    },
+    {
+        icon: "/imgs/skills/mongodb.png",
+        title: "mongodb",
+    },
 ];
 </script>
