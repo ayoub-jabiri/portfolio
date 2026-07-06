@@ -56,6 +56,10 @@ const categories = ref([
         title: "Nuxt.js",
         active: false,
     },
+    {
+        title: "React.js",
+        active: false,
+    },
 ]);
 
 const toggleMobileFilter = ref(false);

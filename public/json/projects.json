@@ -104,6 +104,15 @@
             "sourceCode": "https://github.com/ayoub-jabiri/ella-store",
             "demo": "https://ella-store.netlify.app/",
             "techs": ["vue.js", "vuetify", "pinia"]
+        },
+        {
+            "cover": "/imgs/projects/project-12.png",
+            "title": "AniVerse",
+            "category": "Explorer Website",
+            "description": "AniVerse is a web application that allows users to discover and organize their personal anime universe from an external API.",
+            "sourceCode": "https://github.com/ayoub-jabiri/ani-verse.git",
+            "demo": "https://ani-verse-explorer.netlify.app/",
+            "techs": ["react.js", "redux", "tailwindcss"]
         }
     ]
 }
