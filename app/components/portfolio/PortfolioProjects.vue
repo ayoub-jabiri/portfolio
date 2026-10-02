@@ -77,6 +77,7 @@
                     </div>
                     <div class="flex max-lg:justify-center items-center gap-3">
                         <a
+                            v-if="currentProject.demo"
                             :href="currentProject.demo"
                             target="_blank"
                             class="bg-transparent text-[#2196F3] hover:bg-[#2196F3] hover:text-white border border-[#2196F3] main-transition w-[130px] py-2 rounded-md text-center flex justify-center items-center gap-2"

@@ -24,7 +24,7 @@
             <button
                 v-for="category in categories"
                 :key="category.title"
-                class="w-[70px] py-2 rounded-md hover:bg-[#e4e4e4] main-transition cursor-pointer"
+                class="w-[90px] py-2 rounded-md hover:bg-[#e4e4e4] main-transition cursor-pointer"
                 :class="category.active ? 'bg-[#e4e4e4]' : ''"
                 @click="handleCategory"
             >
@@ -58,6 +58,10 @@ const categories = ref([
     },
     {
         title: "React.js",
+        active: false,
+    },
+    {
+        title: "Express.js",
         active: false,
     },
 ]);
