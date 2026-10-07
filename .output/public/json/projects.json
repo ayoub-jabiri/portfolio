@@ -113,6 +113,22 @@
             "sourceCode": "https://github.com/ayoub-jabiri/ani-verse.git",
             "demo": "https://ani-verse-explorer.netlify.app/",
             "techs": ["react.js", "redux", "tailwindcss"]
+        },
+        {
+            "cover": "/imgs/projects/academia.png",
+            "title": "Academia",
+            "category": "SAAS Web Application",
+            "description": "Academia is a saas web application that serves as a school management system.",
+            "sourceCode": "https://github.com/ayoub-jabiri/academia.git",
+            "demo": "https://academia-app-aj.netlify.app/",
+            "techs": [
+                "react.js",
+                "redux",
+                "tailwindcss",
+                "node.js",
+                "express.js",
+                "mongodb"
+            ]
         }
     ]
 }
