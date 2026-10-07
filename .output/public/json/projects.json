@@ -78,15 +78,7 @@
             "category": "Blog",
             "description": "NexReview is an independent digital platform offering expert analysis and unbiased reviews of technology, including software, tech devices, and video games. The site also provides guides on earning money and building an online income.",
             "demo": "https://nexreview.com/",
-            "techs": [
-                "html",
-                "css",
-                "js",
-                "bootstrap",
-                "pug.js",
-                "scss",
-                "gulp.js"
-            ]
+            "techs": ["vue.js", "nuxt.js", "tailwindcss"]
         },
         {
             "cover": "/imgs/projects/project-10.jpg",
@@ -94,7 +86,7 @@
             "category": "Service Website",
             "description": "F24 Editabile offers a free online service providing digital versions of official Italian tax payment forms.",
             "demo": "https://f24editabile.com/",
-            "techs": ["nuxt.js", "tailwindcss"]
+            "techs": ["vue.js", "nuxt.js", "tailwindcss"]
         },
         {
             "cover": "/imgs/projects/project-11.png",
